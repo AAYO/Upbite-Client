@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Todo app</title>
+		<script src="Dependencies/mithril.min.js"></script>
+		<script src="Dependencies/autolinker.min.js"></script>
+		<script src="Components/master/master.js"></script>
+		<script src="Components/link/link.js"></script>
+		<link rel="stylesheet" type="text/css" href="Components/link/link.css">
+		<script src="Components/modal/modal.js"></script>
+		<link rel="stylesheet" type="text/css" href="Components/modal/modal.css">
+		<script src="Components/link-parser/link-parser.js"></script>
+		<script src="Components/new/new.js"></script>
+		<script src="//cdn.embedly.com/widgets/platform.js"></script>
+		<script type="text/javascript">
+            // (function(w, d){
+            //     var id='embedly-platform', n = 'script';
+            //     if (!d.getElementById(id)){
+            //         w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};
+            //         var e = d.createElement(n); e.id = id; e.async=1;
+            //         e.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js';
+            //         var s = d.getElementsByTagName(n)[0];
+            //         s.parentNode.insertBefore(e, s);
+            //     }
+            // })(window, document);
+        </script>
+	</head>
+	<body>
+		<script>
+			m.route.mode = 'pathname' 
+			m.route(document.body, '', {'': Master});
+		</script
+	</body>
+</html>

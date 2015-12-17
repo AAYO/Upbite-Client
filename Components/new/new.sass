@@ -1,0 +1,100 @@
+.homepage-post
+    background-color: #f9f9f9
+    overflow: hidden
+    border-radius: 5px
+
+.homepage-post-loggedout
+    cursor: pointer
+    &> *
+        pointer-events: none
+
+.homepage-post-accent
+    height:48px
+    width:100%
+    background-color:$orange
+    background: -moz-linear-gradient(left,  rgba(243,162,55,0.94) 0%, rgba(243,162,55,1) 2%, rgba(244,158,57,1) 42%, rgba(243,156,53,1) 52%, rgba(244,150,54,1) 73%, rgba(243,149,51,1) 75%, rgba(242,140,47,1) 98%, rgba(242,139,47,0.94) 100%)
+    background: -webkit-linear-gradient(left,  rgba(243,162,55,0.94) 0%,rgba(243,162,55,1) 2%,rgba(244,158,57,1) 42%,rgba(243,156,53,1) 52%,rgba(244,150,54,1) 73%,rgba(243,149,51,1) 75%,rgba(242,140,47,1) 98%,rgba(242,139,47,0.94) 100%)
+    background: linear-gradient(to right,  rgba(243,162,55,0.94) 0%,rgba(243,162,55,1) 2%,rgba(244,158,57,1) 42%,rgba(243,156,53,1) 52%,rgba(244,150,54,1) 73%,rgba(243,149,51,1) 75%,rgba(242,140,47,1) 98%,rgba(242,139,47,0.94) 100%)
+
+    font-family: $roman
+    font-size:15px
+    padding-top:14px
+    text-align:center
+    color:$white
+
+.homepage-post-clear, .homepage-post-link-remove
+    position:absolute
+    fill:$white
+    border-radius: 50%
+    cursor: pointer
+
+.homepage-post-clear
+    height:30px
+    width:30px
+    padding: 5px;
+    right:9px
+    top:9px
+    &:hover
+        background-color: rgba(0,0,0,0.1)
+
+.homepage-post-link-remove
+    height:23px
+    width:23px
+    padding: 4px;
+    top:12px
+    right:12px
+    background-color: rgba(43, 52, 67, 0.25)
+    &:hover
+       background-color: rgba(43, 52, 67, 0.5) 
+
+
+.homepage-post-text-wrapper
+    padding: 0 20px
+    position:relative
+
+.homepage-post-textarea
+    border: solid 1px #BFBFBF
+    border-radius: 3px
+    min-height:80px
+    font-size: 13px
+    letter-spacing: -0.25px
+    font-family: AvenirLTStd-Roman
+    line-height: 1.2
+
+.homepage-post-camera-icon-wrapper
+    position:absolute
+    right: 27px
+    bottom: 10px
+    height: 29px
+    width: 29px
+    &:hover
+        >.homepage-post-camera-icon
+            fill:#939496
+
+.homepage-post-camera-icon
+    height:100%
+    width:100%
+    fill: #ADAEB0
+
+.homepage-post-camera-input
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+    position: absolute
+    opacity: 0
+    cursor: pointer
+
+.homepage-post-submit-button
+    height:32px
+    width:100%
+    display:block
+    border:none
+    background-color: #4E84AF
+    font-family: $roman
+    font-size:14px
+    color:$white
+    margin-top: 14px
+    &:hover
+        background-color: #356B96
+

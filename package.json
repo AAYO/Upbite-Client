@@ -1,0 +1,10 @@
+{
+  "name": "upbite-static",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-serve": "^1.2.0"
+  },
+  "devDependencies": {}
+}

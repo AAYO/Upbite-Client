@@ -1,0 +1,5 @@
+node:
+    build: .
+    # volumes: TODO
+    ports:
+        - '4000:4000'
